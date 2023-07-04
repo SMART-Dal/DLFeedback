@@ -1,12 +1,12 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.himesh.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
-import com.himesh.tagman.tagmanplugin.constants.Constants;
-import com.himesh.tagman.tagmanplugin.filesManager.AppProperties;
-import com.himesh.tagman.tagmanplugin.filesManager.SettingsFolder;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
+import com.author.tagman.tagmanplugin.constants.Constants;
+import com.author.tagman.tagmanplugin.filesManager.AppProperties;
+import com.author.tagman.tagmanplugin.filesManager.SettingsFolder;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.util.IconLoader;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 
-import static com.himesh.tagman.tagmanplugin.constants.Constants.*;
+import static com.author.tagman.tagmanplugin.constants.Constants.*;
 
 
 public class DesigniteMenuRetrain extends AnAction {

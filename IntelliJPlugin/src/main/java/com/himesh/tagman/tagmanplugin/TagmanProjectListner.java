@@ -1,11 +1,11 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
-import com.himesh.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
-import com.himesh.tagman.tagmanplugin.constants.Constants;
-import com.himesh.tagman.tagmanplugin.filesManager.AppProperties;
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
+import com.author.tagman.tagmanplugin.constants.Constants;
+import com.author.tagman.tagmanplugin.filesManager.AppProperties;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.startup.StartupActivity;
 import org.apache.http.HttpEntity;

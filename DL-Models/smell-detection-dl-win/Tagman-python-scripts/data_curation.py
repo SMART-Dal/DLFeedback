@@ -25,8 +25,8 @@ from transformers import RobertaTokenizer
 # In[81]:
 
 
-#basePath = '/home/himesh/TagCoder/pythonNotebook'
-basePath = r'C:\Users\Himesh\Documents\thesis\pythonNotebook'
+#basePath = '/home/author/TagCoder/pythonNotebook'
+basePath = r'C:\Users\author\Documents\thesis\pythonNotebook'
 positivePathSuffix = '/Positive'
 negativePathSuffix = '/Negative'
 tokenizerInPath = basePath + '\\tokenizerIn'

@@ -20,14 +20,14 @@ import plot_util
 # --- Parameters --
 DIM = "1d"
 
-TRAINING_TOKENIZER_OUT_PATH = "/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Mootex/run2/eval/tokenizer_out_java"
-RQ1_OUT_FOLDER = "/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Mootex/run2/rq1/raw"
-RQ2_OUT_FOLDER = "/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Mootex/run2/rq2/raw"
-#EVAL_TOKENIZER_OUT_PATH = "/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Mootex/run2/train/tokenizer_out_java"
-# TRAINING_TOKENIZER_OUT_PATH = "/users/pa18/tushar/smellDetectionML/data/tokenizer_out_cs/"
-# EVAL_TOKENIZER_OUT_PATH = "/users/pa18/tushar/smellDetectionML/data/tokenizer_out_java/"
-# RQ1_OUT_FOLDER = "/users/pa18/tushar/smellDetectionML/learning_smells/results/rq1/raw"
-# RQ2_OUT_FOLDER = "/users/pa18/tushar/smellDetectionML/learning_smells/results/rq2/raw"
+TRAINING_TOKENIZER_OUT_PATH = "/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Auth/run2/eval/tokenizer_out_java"
+RQ1_OUT_FOLDER = "/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Auth/run2/rq1/raw"
+RQ2_OUT_FOLDER = "/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Auth/run2/rq2/raw"
+#EVAL_TOKENIZER_OUT_PATH = "/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Auth/run2/train/tokenizer_out_java"
+# TRAINING_TOKENIZER_OUT_PATH = "/users/pa18/CoAuth/smellDetectionML/data/tokenizer_out_cs/"
+# EVAL_TOKENIZER_OUT_PATH = "/users/pa18/CoAuth/smellDetectionML/data/tokenizer_out_java/"
+# RQ1_OUT_FOLDER = "/users/pa18/CoAuth/smellDetectionML/learning_smells/results/rq1/raw"
+# RQ2_OUT_FOLDER = "/users/pa18/CoAuth/smellDetectionML/learning_smells/results/rq2/raw"
 
 TRAIN_VALIDATE_RATIO = 0.7
 CLASSIFIER_THRESHOLD = 0.7

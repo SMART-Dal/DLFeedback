@@ -26,10 +26,10 @@ from sklearn.model_selection import train_test_split
 
 # In[30]:
 
-basePath = '/home/himesh/TagCoder/pythonNotebook'
+basePath = '/home/author/TagCoder/pythonNotebook'
 tokenizerInPath = basePath + '/tokenizerIn'
 tokenizerOutPath = basePath + '/tokenizerOut'
-#basePath = r'C:\Users\Himesh\Documents\thesis\pythonNotebook'
+#basePath = r'C:\Users\author\Documents\thesis\pythonNotebook'
 positivePathSuffix = '/Positive'
 negativePathSuffix = '/Negative'
 #tokenizerInPath = basePath + '\\tokenizerIn'

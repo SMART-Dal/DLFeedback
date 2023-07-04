@@ -1,6 +1,6 @@
-package com.himesh.tagman.tagmanplugin.utils;
+package com.author.tagman.tagmanplugin.utils;
 
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
 import com.intellij.ide.DataManager;
 import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.openapi.actionSystem.DataKeys;

@@ -1,10 +1,10 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
-import com.himesh.tagman.tagmanplugin.models.DesignSmell;
-import com.himesh.tagman.tagmanplugin.models.ImplementationSmell;
-import com.himesh.tagman.tagmanplugin.models.TypeMetrics;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
+import com.author.tagman.tagmanplugin.models.DesignSmell;
+import com.author.tagman.tagmanplugin.models.ImplementationSmell;
+import com.author.tagman.tagmanplugin.models.TypeMetrics;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.project.ProjectManager;
 import com.intellij.ui.components.JBScrollPane;
@@ -19,8 +19,8 @@ import java.io.File;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.himesh.tagman.tagmanplugin.constants.Constants.TOOL_WINDOW_ANALYSIS_TEXT;
-import static com.himesh.tagman.tagmanplugin.constants.Constants.TOOL_WINDOW_TEXT;
+import static com.author.tagman.tagmanplugin.constants.Constants.TOOL_WINDOW_ANALYSIS_TEXT;
+import static com.author.tagman.tagmanplugin.constants.Constants.TOOL_WINDOW_TEXT;
 
 
 public class ClassInfoToolWindow {

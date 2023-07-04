@@ -59,9 +59,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         logger.info("Starting parse");
-        File folder = new File("C:\\Users\\Himesh\\Downloads\\results-experiment\\results");
+        File folder = new File("C:\\Users\\author\\Downloads\\results-experiment\\results");
 
-        try (Stream<Path> walk = Files.walk(Paths.get("C:\\Users\\Himesh\\Downloads\\results-experiment\\results"), 1)) {
+        try (Stream<Path> walk = Files.walk(Paths.get("C:\\Users\\author\\Downloads\\results-experiment\\results"), 1)) {
             List<String> result = walk
                     .filter(p -> !Files.isDirectory(p))   // not a directory
                     .map(p -> p.toString().toLowerCase()) // convert path to string

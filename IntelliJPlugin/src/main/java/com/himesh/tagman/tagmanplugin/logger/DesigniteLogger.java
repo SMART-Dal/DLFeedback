@@ -1,6 +1,6 @@
-package com.himesh.tagman.tagmanplugin.logger;
+package com.author.tagman.tagmanplugin.logger;
 
-import com.himesh.tagman.tagmanplugin.filesManager.SettingsFolder;
+import com.author.tagman.tagmanplugin.filesManager.SettingsFolder;
 
 import java.io.IOException;
 import java.nio.file.Paths;

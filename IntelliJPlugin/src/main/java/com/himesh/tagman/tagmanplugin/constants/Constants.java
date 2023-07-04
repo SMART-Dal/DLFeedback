@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin.constants;
+package com.author.tagman.tagmanplugin.constants;
 
 public class Constants {
     public static final String DESIGNITE_SETTINGS_FOLDER = ".designite";

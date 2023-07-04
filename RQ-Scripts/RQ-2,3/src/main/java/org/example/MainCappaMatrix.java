@@ -40,11 +40,11 @@ public class MainCappaMatrix {
         File inputFile;
 
         if(before){
-            folderPath = new File("C:\\Users\\Himesh\\Documents\\thesis\\plugin\\code\\TagcoderDataTransformer\\FilesForKappaPython\\Before\\");
+            folderPath = new File("C:\\Users\\author\\Documents\\thesis\\plugin\\code\\TagcoderDataTransformer\\FilesForKappaPython\\Before\\");
             inputFile = new File("matrix-output-before.csv");
         }
         else {
-            folderPath = new File("C:\\Users\\Himesh\\Documents\\thesis\\plugin\\code\\TagcoderDataTransformer\\FilesForKappaPython\\After\\");
+            folderPath = new File("C:\\Users\\author\\Documents\\thesis\\plugin\\code\\TagcoderDataTransformer\\FilesForKappaPython\\After\\");
             inputFile = new File("matrix-output-after.csv");
         }
 

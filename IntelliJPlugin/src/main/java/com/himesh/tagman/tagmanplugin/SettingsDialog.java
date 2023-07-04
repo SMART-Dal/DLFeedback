@@ -1,9 +1,9 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
-import com.himesh.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
-import com.himesh.tagman.tagmanplugin.constants.Constants;
-import com.himesh.tagman.tagmanplugin.filesManager.AppProperties;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
+import com.author.tagman.tagmanplugin.constants.Constants;
+import com.author.tagman.tagmanplugin.filesManager.AppProperties;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
 import com.intellij.openapi.util.IconLoader;
 import com.intellij.ui.components.JBTabbedPane;
 

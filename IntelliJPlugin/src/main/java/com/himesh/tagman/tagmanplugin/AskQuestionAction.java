@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
 import com.intellij.ide.BrowserUtil;
 import com.intellij.lang.Language;

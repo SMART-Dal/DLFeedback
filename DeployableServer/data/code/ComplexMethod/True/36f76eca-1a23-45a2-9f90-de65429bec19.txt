@@ -5,7 +5,7 @@
 			return "redirect:/login";
 		}
 		TagmanUtil.runDesignite(TagmanUtil.getBaseFile(),
-				"/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Designite/DesigniteJava.jar",
+				"/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Designite/DesigniteJava.jar",
 				0);
 		if (error != null)
 			model.addAttribute("error", "Your folder does not contain valid values");

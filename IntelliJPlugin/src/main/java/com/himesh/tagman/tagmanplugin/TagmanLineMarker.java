@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
@@ -6,14 +6,14 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
-import com.himesh.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
-import com.himesh.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
-import com.himesh.tagman.tagmanplugin.models.CodeSmell;
-import com.himesh.tagman.tagmanplugin.models.DesignSmell;
-import com.himesh.tagman.tagmanplugin.models.ImplementationSmell;
-import com.himesh.tagman.tagmanplugin.utils.IntelliJ_Utils;
+import com.author.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.ProjectSmellsInfo;
+import com.author.tagman.tagmanplugin.lineMarkerProvider.SmellsInfoProvider;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.models.CodeSmell;
+import com.author.tagman.tagmanplugin.models.DesignSmell;
+import com.author.tagman.tagmanplugin.models.ImplementationSmell;
+import com.author.tagman.tagmanplugin.utils.IntelliJ_Utils;
 import com.intellij.codeHighlighting.Pass;
 import com.intellij.codeInsight.daemon.GutterIconNavigationHandler;
 import com.intellij.codeInsight.daemon.RelatedItemLineMarkerInfo;

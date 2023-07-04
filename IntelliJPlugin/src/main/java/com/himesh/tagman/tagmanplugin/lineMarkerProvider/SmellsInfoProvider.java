@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin.lineMarkerProvider;
+package com.author.tagman.tagmanplugin.lineMarkerProvider;
 
 import com.intellij.openapi.project.Project;
 

@@ -16,9 +16,9 @@ import java_learning_data_generator
 # --
 
 # -- Parameters --
-#DATA_BASE_PATH = r'/Users/himesh/Documents/DL-thesis-ref-master/DeepLearningSmells-master/data'
-#DATA_BASE_PATH = "C:/Users/Himesh/OneDrive - Dalhousie University/Thesis/BroadRelease/final"
-DATA_BASE_PATH = "/home/himesh/TagCoder"
+#DATA_BASE_PATH = r'/Users/author/Documents/DL-thesis-ref-master/DeepLearningSmells-master/data'
+#DATA_BASE_PATH = "C:/Users/author/OneDrive - Anon University/Thesis/BroadRelease/final"
+DATA_BASE_PATH = "/home/author/TagCoder"
 CS_REPO_SOURCE_FOLDER = DATA_BASE_PATH + r'\all_cs_repos'
 BATCH_FILES_FOLDER = DATA_BASE_PATH + r'\BatchFiles'
 CS_SMELLS_RESULTS_FOLDER = DATA_BASE_PATH + '/designite_out'
@@ -31,12 +31,12 @@ CS_CODE_SPLIT_MODE_METHOD = "-m"
 CS_CODE_SPLIT_EXE_PATH = r'D:\Dev\codeSplit\CodeSplit\bin\Release\CodeSplit.exe'
 
 CS_LEARNING_DATA_FOLDER_BASE = DATA_BASE_PATH + r'\training_data'
-# CS_LEARNING_DATA_FOLDER_BASE = "/Users/Tushar/Documents/Research/smellDetectionML/data/smellML_Data_cs"
+# CS_LEARNING_DATA_FOLDER_BASE = "/Users/CoAuth/Documents/Research/smellDetectionML/data/smellML_Data_cs"
 
-# TOKENIZER_EXE_PATH = "/Users/Tushar/Documents/Research/smellDetectionML/tokenizer/src/tokenizer"
-TOKENIZER_EXE_PATH = '/home/himesh/TagCoder/tokenizer/src/tokenizer'
+# TOKENIZER_EXE_PATH = "/Users/CoAuth/Documents/Research/smellDetectionML/tokenizer/src/tokenizer"
+TOKENIZER_EXE_PATH = '/home/author/TagCoder/tokenizer/src/tokenizer'
 CS_TOKENIZER_OUT_PATH = DATA_BASE_PATH + '/tokenizer_out'
-# CS_TOKENIZER_OUT_PATH = "/Users/Tushar/Documents/Research/smellDetectionML/data/tokenizer_out_cs"
+# CS_TOKENIZER_OUT_PATH = "/Users/CoAuth/Documents/Research/smellDetectionML/data/tokenizer_out_cs"
 
 JAVA_REPO_SOURCE_FOLDER = DATA_BASE_PATH+'/output'
 JAVA_SMELLS_RESULTS_FOLDER = DATA_BASE_PATH + '/designite_out_java'

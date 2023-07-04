@@ -1,10 +1,10 @@
-package com.himesh.tagman.tagmanplugin.lineMarkerProvider;
+package com.author.tagman.tagmanplugin.lineMarkerProvider;
 
-import com.himesh.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
-import com.himesh.tagman.tagmanplugin.models.CodeSmell;
-import com.himesh.tagman.tagmanplugin.models.DesignSmell;
-import com.himesh.tagman.tagmanplugin.models.ImplementationSmell;
+import com.author.tagman.tagmanplugin.assetLoaders.DesigniteAssetLoader;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.models.CodeSmell;
+import com.author.tagman.tagmanplugin.models.DesignSmell;
+import com.author.tagman.tagmanplugin.models.ImplementationSmell;
 import com.intellij.codeHighlighting.Pass;
 import com.intellij.codeInsight.daemon.RelatedItemLineMarkerInfo;
 import com.intellij.codeInsight.daemon.RelatedItemLineMarkerProvider;

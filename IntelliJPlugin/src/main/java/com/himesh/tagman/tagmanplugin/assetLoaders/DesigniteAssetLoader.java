@@ -1,8 +1,8 @@
-package com.himesh.tagman.tagmanplugin.assetLoaders;
+package com.author.tagman.tagmanplugin.assetLoaders;
 
 
-import com.himesh.tagman.tagmanplugin.constants.Constants;
-import com.himesh.tagman.tagmanplugin.filesManager.AppProperties;
+import com.author.tagman.tagmanplugin.constants.Constants;
+import com.author.tagman.tagmanplugin.filesManager.AppProperties;
 
 import javax.swing.*;
 import java.io.File;

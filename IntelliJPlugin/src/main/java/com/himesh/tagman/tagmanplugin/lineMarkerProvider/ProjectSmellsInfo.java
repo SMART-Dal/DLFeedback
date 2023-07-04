@@ -1,10 +1,10 @@
-package com.himesh.tagman.tagmanplugin.lineMarkerProvider;
+package com.author.tagman.tagmanplugin.lineMarkerProvider;
 
-import com.himesh.tagman.tagmanplugin.filesManager.SettingsFolder;
-import com.himesh.tagman.tagmanplugin.logger.DesigniteLogger;
-import com.himesh.tagman.tagmanplugin.models.DesignSmell;
-import com.himesh.tagman.tagmanplugin.models.ImplementationSmell;
-import com.himesh.tagman.tagmanplugin.models.TypeMetrics;
+import com.author.tagman.tagmanplugin.filesManager.SettingsFolder;
+import com.author.tagman.tagmanplugin.logger.DesigniteLogger;
+import com.author.tagman.tagmanplugin.models.DesignSmell;
+import com.author.tagman.tagmanplugin.models.ImplementationSmell;
+import com.author.tagman.tagmanplugin.models.TypeMetrics;
 import com.intellij.openapi.project.Project;
 
 import java.io.BufferedReader;

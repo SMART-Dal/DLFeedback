@@ -11,7 +11,7 @@ The scripts use the GitHub GraphAPI and QScored API to download and rate the rep
 - GitHub Personal Access Token 
 - QScored API key
 - [DesigniteJava](https://www.designite-tools.com/static/download/DJE/DesigniteJava.jar)
-- [CodeSplitJava](https://github.com/tushartushar/CodeSplitJava)
+- [CodeSplitJava](https://github.com/CoAuthCoAuth/CodeSplitJava)
 
 ### Configurations
 

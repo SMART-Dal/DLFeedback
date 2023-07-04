@@ -4,10 +4,10 @@ import sys
 
 #[program, base, number] = sys.argv
 
-#ALL_REPOS_FILE ="/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Mootex/run2/eval/final_dataset.csv"
+#ALL_REPOS_FILE ="/Users/author/Library/CloudStorage/OneDrive-AnonUniversity/Thesis/Auth/run2/eval/final_dataset.csv"
 #ALL_REPOS_FILE =base+"final_dataset.csv"
-#base ="C:/Users/Himesh/OneDrive - Dalhousie University/Thesis/BroadRelease/final"
-base = "/home/himesh/TagCoder"
+#base ="C:/Users/author/OneDrive - Anon University/Thesis/BroadRelease/final"
+base = "/home/author/TagCoder"
 ALL_REPOS_FILE=base+"/csv/final-dataset.csv"
 REPO_STORE_ROOT = base+"/output"
 REPOS_TO_DOWNLOAD=2   

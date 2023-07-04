@@ -1,6 +1,6 @@
-package com.himesh.tagman.tagmanplugin.filesManager;
+package com.author.tagman.tagmanplugin.filesManager;
 
-import com.himesh.tagman.tagmanplugin.constants.Constants;
+import com.author.tagman.tagmanplugin.constants.Constants;
 import org.apache.commons.lang.SystemUtils;
 
 import java.io.File;

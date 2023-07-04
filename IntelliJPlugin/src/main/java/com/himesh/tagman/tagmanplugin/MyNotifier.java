@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin;
+package com.author.tagman.tagmanplugin;
 
 import com.intellij.notification.NotificationGroupManager;
 import com.intellij.notification.NotificationType;

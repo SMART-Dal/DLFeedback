@@ -1,4 +1,4 @@
-package com.himesh.tagman.tagmanplugin.models;
+package com.author.tagman.tagmanplugin.models;
 
 public abstract class CodeSmell {
     private String name;

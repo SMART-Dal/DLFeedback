@@ -1,14 +1,14 @@
 '''
 This script takes an exported annotation file (csv) in the following form
  Filename	User	entity	annotation
- m187.cs	tushar	cc	FALSE
+ m187.cs	CoAuth	cc	FALSE
 and prepares another file with following form
  Filename cc cm [cc] [cm]
  m187.cs FALSE FALSE 
 '''
 
-INPUT_FILE = r'/Users/Tushar/Documents/Research/smellDetectionML/data/manual annotations/exported.csv'
-OUTPUT_FILE = r'/Users/Tushar/Documents/Research/smellDetectionML/data/manual annotations/exported_clean.csv'
+INPUT_FILE = r'/Users/CoAuth/Documents/Research/smellDetectionML/data/manual annotations/exported.csv'
+OUTPUT_FILE = r'/Users/CoAuth/Documents/Research/smellDetectionML/data/manual annotations/exported_clean.csv'
 
 tag_dict = dict() # key: filename, value: dict
 with open(INPUT_FILE, 'r', errors='ignore') as reader:

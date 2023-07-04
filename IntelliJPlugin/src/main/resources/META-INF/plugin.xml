@@ -1,14 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>com.himesh.tagman.TagmanPlugin</id>
+    <id>com.author.tagman.TagmanPlugin</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
     <name>Tagman</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="himesh.nandani@dal.ca" url="https://www.dal.ca">Dalhousie TagCoder</vendor>
+    <vendor email="author.nandani@dal.ca" url="https://www.dal.ca">Anon TagCoder</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -34,9 +34,9 @@ granularity. It also computes common code quality metrics to measure complexity,
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <codeInsight.lineMarkerProvider language="" implementationClass="com.himesh.tagman.tagmanplugin.TagmanLineMarker"/>
+        <codeInsight.lineMarkerProvider language="" implementationClass="com.author.tagman.tagmanplugin.TagmanLineMarker"/>
 <!--        <toolWindow id="DesigniteJava" secondary="true" anchor="bottom"-->
-<!--                    factoryClass="com.himesh.tagman.tagmanplugin.ToolWindowFactory" icon="/Images/designite_icon_16.png"/>-->
+<!--                    factoryClass="com.author.tagman.tagmanplugin.ToolWindowFactory" icon="/Images/designite_icon_16.png"/>-->
 
     </extensions>
     <extensions defaultExtensionNs="com.intellij">
@@ -45,7 +45,7 @@ granularity. It also computes common code quality metrics to measure complexity,
                            key="notification.group.name"/>
     </extensions>
     <actions>
-        <group id="Designite.MainMenu" class="com.himesh.tagman.tagmanplugin.DesigniteMenu" text="_TagCoder" popup="true" icon="/Images/tagcoder_icon_16.png">
+        <group id="Designite.MainMenu" class="com.author.tagman.tagmanplugin.DesigniteMenu" text="_TagCoder" popup="true" icon="/Images/tagcoder_icon_16.png">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <!--            <action id="Designite.RunMenuItem" class="designite.ui.DesigniteMenuAnalyze" />-->
             <!--            <action id="Designite.Settings" class="designite.ui.DesigniteMenuSettings"/>-->
@@ -58,6 +58,6 @@ granularity. It also computes common code quality metrics to measure complexity,
     </actions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <postStartupActivity implementation="com.himesh.tagman.tagmanplugin.TagmanProjectListner"/>
+        <postStartupActivity implementation="com.author.tagman.tagmanplugin.TagmanProjectListner"/>
     </extensions>
 </idea-plugin>
