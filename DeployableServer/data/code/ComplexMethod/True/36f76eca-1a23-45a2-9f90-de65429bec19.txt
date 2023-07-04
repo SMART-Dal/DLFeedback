@@ -1,0 +1,17 @@
+@GetMapping("/import-csv")
+
+	public String importCSV(Model model, String error, String logout) throws IOException, InterruptedException {
+		if (!securityService.isAuthenticated()) {
+			return "redirect:/login";
+		}
+		TagmanUtil.runDesignite(TagmanUtil.getBaseFile(),
+				"/Users/himesh/Library/CloudStorage/OneDrive-DalhousieUniversity/Thesis/Designite/DesigniteJava.jar",
+				0);
+		if (error != null)
+			model.addAttribute("error", "Your folder does not contain valid values");
+
+		if (logout != null)
+			model.addAttribute("message", "You have been logged out successfully.");
+
+		return "redirect:/welcome";
+	}

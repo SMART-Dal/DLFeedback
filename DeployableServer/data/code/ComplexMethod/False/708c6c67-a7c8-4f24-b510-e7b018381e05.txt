@@ -1,0 +1,23 @@
+@PostMapping("/import-smells2")
+
+	public String uploadSmellsFile(Model model, @RequestParam("file") MultipartFile file, RedirectAttributes attributes)
+			throws IOException {
+
+		if (file.isEmpty()) {
+			attributes.addFlashAttribute("message", "Please select a file to upload.");
+			return "redirect:/";
+		}
+
+		try {
+			importService.importSmellsFile(file);
+		} catch (Exception e) {
+			System.out.println("Exception");
+			e.printStackTrace();
+			return "redirect:/";
+		}
+		// return success response
+		attributes.addFlashAttribute("message", "You successfully uploaded " + file.getOriginalFilename() + '!');
+
+		return "redirect:/importSmells";
+
+	}

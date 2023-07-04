@@ -1,0 +1,15 @@
+@GetMapping("/import-smells2")
+
+	public String importSmells(Model model, String error, String logout) {
+		if (!securityService.isAuthenticated()) {
+			return "redirect:/login";
+		}
+
+		if (error != null)
+			model.addAttribute("error", "Your file does not contain valid values");
+
+		if (logout != null)
+			model.addAttribute("message", "You have been logged out successfully.");
+
+		return "importSmells";
+	}
