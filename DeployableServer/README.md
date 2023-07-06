@@ -1,52 +1,26 @@
-# django_server
+# Code Smell Detection Django Server
 
-elk api
+This Django server serves as the central processing unit for code smell detection in software projects. 
+It provides an API endpoint to accept classes or methods as input and determines if they exhibit code smells. 
+The server utilizes machine learning techniques to automate code smell detection, making the process faster and more efficient.
 
-[![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
-[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+## Features
 
-## Settings
+- Code smell detection: The server uses a trained deep learning model to predict code smells in classes or methods provided as input.
+- Customization: The model can be fine-tuned based on user feedback to make it specific to the user's preferences and context, allowing for personalized code smell detection.
+- Docker containerization: The server is containerized using Docker, ensuring easy deployment and scalability. This simplifies the setup and integration of the code smell detection system into existing software development workflows.
 
-Moved to [settings](http://cookiecutter-django.readthedocs.io/en/latest/settings.html).
+## Prerequisites
 
-## Basic Commands
+- Python 3.7 or higher
+- Django 3.2 or higher
+- Docker-Compose
 
-### Setting Up Your Users
+## Installation
 
--   To create a **normal user account**, just go to Sign Up and fill out the form. Once you submit it, you'll see a "Verify Your E-mail Address" page. Go to your console to see a simulated email verification message. Copy the link into your browser. Now the user's email should be verified and ready to go.
+1. Clone the repository. 
 
--   To create a **superuser account**, use this command:
+## Usage
 
-        $ python manage.py createsuperuser
-
-For convenience, you can keep your normal user logged in on Chrome and your superuser logged in on Firefox (or similar), so that you can see how the site behaves for both kinds of users.
-
-### Type checks
-
-Running type checks with mypy:
-
-    $ mypy django_server
-
-### Test coverage
-
-To run the tests, check your test coverage, and generate an HTML coverage report:
-
-    $ coverage run -m pytest
-    $ coverage html
-    $ open htmlcov/index.html
-
-#### Running tests with pytest
-
-    $ pytest
-
-### Live reloading and Sass CSS compilation
-
-Moved to [Live reloading and SASS compilation](https://cookiecutter-django.readthedocs.io/en/latest/developing-locally.html#sass-compilation-live-reloading).
-
-## Deployment
-
-The following details how to deploy this application.
-
-### Docker
-
-See detailed [cookiecutter-django Docker documentation](http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html).
+1. Build the docker container: docker-compose build
+2. Run the docker container: docker-compose up
