@@ -12,6 +12,7 @@ This repository contains multiple projects related to code smell detection. Each
 
 ## Prerequisites
 
+- Dataset (Follow the instructions at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7570428.svg)](https://doi.org/10.5281/zenodo.7570428) to download the dataset). 
 - Python 3.x
 - Jupyter Notebook
 - PyTorch
@@ -25,3 +26,7 @@ This repository contains multiple projects related to code smell detection. Each
 2. Navigate to the specific project directory you are interested in.
 3. Follow the instructions provided in the README file of that project to set up and run the code.
 
+## Notes
+1. For added convenience, all the necessary python libraries for all the subprojects can be installed using the `requirements.txt` file. 
+Use the command below to install all the dependencies using pip:
+`pip install -r requirements.txt` 
