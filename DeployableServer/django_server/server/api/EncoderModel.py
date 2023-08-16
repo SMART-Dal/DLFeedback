@@ -4,6 +4,7 @@ import os
 from keras.models import load_model
 maxLength = 894
 def train_model():
+    experiment = True
     print('In retrain model')
     tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-cased")
     try:
@@ -61,16 +62,16 @@ def train_model():
                                 validation_split=0.2,
                                 shuffle=True).history
             
-            if(False):
+            if(experiment):
                 if(smell == 'ComplexMethod'):
-                    autoencoder = load_model('lstm_model.h5')
-                    autoencoder.save('lstm_model.h5')
+                   # autoencoder = load_model('lstm_model.h5')
+                    autoencoder.save('./../../lstm_model.h5')
                 elif(smell == 'LongMethod'):
-                    autoencoder = load_model('lstm_model_lp.h5')
-                    autoencoder.save('lstm_model_lp.h5')
+                    #autoencoder = load_model('lstm_model_lp.h5')
+                    autoencoder.save('./../../lstm_model_lp.h5')
                 else:
-                    autoencoder = load_model('lstm_model_ma.h5')
-                    autoencoder.save('lstm_model_ma.h5')
+                    #autoencoder = load_model('lstm_model_ma.h5')
+                    autoencoder.save('./../../lstm_model_ma.h5')
                     
     except:
          print('got an exception')
