@@ -291,7 +291,7 @@ def write_result(file, str):
     f.close()
 
 
-def get_out_file(smell, model):
+def get_out_file(smell,OUT_FOLDER, model):
     now = datetime.datetime.now()
     if not os.path.exists(OUT_FOLDER):
         os.makedirs(OUT_FOLDER)
@@ -299,14 +299,15 @@ def get_out_file(smell, model):
                         + str(now.strftime("%d%m%Y_%H%M") + ".csv"))
 
 
-def main_lstm(smell, data_path, skip_iter=-1):
+def main_lstm(smell, data_path,OUTPUT_FOLDER, skip_iter=-1):
+    
     print('IN method main_lstm. smell is '+smell+' data path is '+data_path)
     input_data = get_all_data(data_path, smell)
 
     layers = [2]
     encoding_dim = [8]
     epochs = 5
-    outfile = get_out_file(smell, "rnn")
+    outfile = get_out_file(smell,OUTPUT_FOLDER, "rnn")
     write_result(outfile,
                  "units,threshold,epoch,bottleneck,layer,precision,recall,f1,time\n")
     cur_iter = 1

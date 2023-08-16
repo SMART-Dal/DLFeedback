@@ -74,7 +74,7 @@ def tokenize(tokenizer_language, tokenizer_input_base_path, tokenizer_out_base_p
         os.makedirs(tokenizer_out_base_path)
 
     #list = ["ComplexConditional"]
-    list = ["ComplexConditional", "ComplexMethod", "MultifacetedAbstraction", "FeatureEnvy"]
+    list = ["LongParameter", "ComplexMethod", "MultifacetedAbstraction"]
     assert tokenizer_language == "CSharp" or tokenizer_language == "Java"
 
     for dim in {1,2}:
@@ -82,7 +82,7 @@ def tokenize(tokenizer_language, tokenizer_input_base_path, tokenizer_out_base_p
             # default dimension is 1, so tokenizer level would be method
             tokenizer_level = "method"
             dim_str = "1d"
-            if dir in ["MultifacetedAbstraction", "FeatureEnvy"]:
+            if dir in ["MultifacetedAbstraction"]:
                 tokenizer_level = "file"
             if dim == 2:
                 tokenizer_level = "statement"
