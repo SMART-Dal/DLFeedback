@@ -1,8 +1,8 @@
 # Tagcoder Plugin for IntelliJ IDE
 
 The Tagcoder plugin is designed to enhance code smell detection capabilities within the IntelliJ IDE. 
-It provides a user-friendly interface to capture user feedback on code smells, facilitating the process of fine-tuning machine learning models based on user preferences and context. 
-This plugin integrates seamlessly with the IntelliJ IDE, making it easier for developers to actively participate in the code smell detection process.
+It provides a user-friendly interface to capture user feedback on code smells, facilitating the process of fine-tuning machine-learning models based on user preferences and context. 
+This plugin integrates seamlessly with the IntelliJ IDE, making it easier for developers to participate in the code smell detection process actively.
 
 ## Features
 
@@ -23,7 +23,10 @@ This plugin integrates seamlessly with the IntelliJ IDE, making it easier for de
 ## Running 
 
 - Open the GIT repository in Intellij IDE
-- Run the 'runIde' goal in gradle
+- Run the 'runIde' goal in Gradle. The gradle goal will automatically open a new instance of IDE with the plugin installed.
+- The repository that was presented to the users is present at:
+  https://github.com/himesh13/Tagman_Phase2
+- The raw data collected at the end of the experiment is present in the Experiment-Data folder named `results-exp.zip`. 
 
 
 ## Acknowledgments
