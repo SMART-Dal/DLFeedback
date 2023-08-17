@@ -21,13 +21,14 @@ The server utilizes machine learning techniques to automate code smell detection
 1. Clone the repository. 
 
 ## Usage
-
-1. Build the docker container: docker-compose build
-2. Run the docker container: docker-compose up
+1. Change the directory to `DeployableServer`
+`cd \DeployableServer\ 
+2. Build the docker container: docker-compose build
+3. Run the docker container: docker-compose up
 
 ## Notes
 
 1. The weights are located at the location: 
-DeployableServer\
+`DeployableServer\`
 These can be changed and updated as needed. 
 2. The code is currently setup to work with the experiment group. To change it to work with the control group, change the variable `experiment` to False within the class DeployableServer\django_server\server\api\EncoderModel.py
