@@ -22,7 +22,7 @@ The server utilizes machine learning techniques to automate code smell detection
 
 ## Usage
 1. Change the directory to `DeployableServer`
-`cd \DeployableServer\ 
+`cd DeployableServer\ `
 2. Build the docker container: docker-compose build
 3. Run the docker container: docker-compose up
 
