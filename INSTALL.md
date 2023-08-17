@@ -11,12 +11,15 @@ This setup entails utilizing pre-existing pre-trained deep learning models to re
 - Build the image by executing `docker-compose build`.
 - Launch the container with the command `docker-compose up`.
 - Open the IntelliJ IDE and access the "IntelliJPlugin" folder.
-- Execute the "runIde" goal within the IntelliJ IDE. This will initiate a new instance of the IDE with the plugin loaded.
+- Open the settings dialog.
+- Click on the plugin tab.
+- Select the settings menu and click 'Install from disk.'
+- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip'.  
 - Load the repository located at https://github.com/himesh13/Tagman_Phase2 in the IDE.
 
 ## Experiment Setup after Building the Deep-Learning Models
 
-In this setup, deep learning models are constructed to recreate the experiment components. To follow this approach, adhere to these steps:
+Deep learning models are constructed in this setup to recreate the experiment components. To follow this approach, adhere to these steps:
 
 - Clone the repository using the command `gh repo clone SMART-Dal/DLFeedback`.
 - Navigate to the "DL-Models\smell-detection-dl-win\" folder.
@@ -26,8 +29,9 @@ In this setup, deep learning models are constructed to recreate the experiment c
 - Navigate to the "DeployableServer/django_server/" folder.
 - Build the image with the command `docker-compose build`.
 - Run the container by executing `docker-compose up`.
-- Open the IntelliJ IDE and access the "IntelliJPlugin" folder.
-- Execute the "runIde" goal within the IntelliJ IDE. This will automatically open a new IDE instance with the loaded plugin.
+- Open the settings dialog.
+- Click on the plugin tab.
+- Select the settings menu and click 'Install from disk.'
+- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip'.  
 - Load the repository located at https://github.com/himesh13/Tagman_Phase2 in the IDE.
 
-By maintaining the structural integrity, the information is presented concisely while providing clear instructions for both installation approaches.

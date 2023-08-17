@@ -20,14 +20,18 @@ This plugin integrates seamlessly with the IntelliJ IDE, making it easier for de
 - Install IDE
 - Clone the GIT repository 
 
-## Running 
+## Running
 
-- Open the GIT repository in Intellij IDE
-- Run the 'runIde' goal in Gradle. The gradle goal will automatically open a new instance of IDE with the plugin installed.
+- Open the GIT repository in IntelliJ IDE.
+- Open the settings dialog.
+- Click on the plugin tab.
+- Select the settings menu and click 'Install from disk.'
+- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip'.  
 - The repository that was presented to the users is present at:
   https://github.com/himesh13/Tagman_Phase2
 - The raw data collected at the end of the experiment is present in the Experiment-Data folder named `results-exp.zip`. 
 
+Alternative to importing the jar, you can also run the 'runIde' goal in Gradle. The gradle goal will automatically open a new instance of IDE with the plugin installed from the source.
 
 ## Acknowledgments
 
