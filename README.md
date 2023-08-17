@@ -19,7 +19,8 @@ In the second round, we fine-tune the model based on the experimental group's fe
 
 ## Prerequisites
 
-- Dataset (Follow the instructions at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7570428.svg)](https://doi.org/10.5281/zenodo.7570428) to download the dataset). 
+- Dataset (Follow the instructions at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7570428.svg)](https://doi.org/10.5281/zenodo.7570428) to download the dataset).
+- Github CLI
 - Python 3.x
 - Jupyter Notebook
 - PyTorch
