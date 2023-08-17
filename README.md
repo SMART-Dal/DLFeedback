@@ -2,7 +2,7 @@
 
 This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection.
 
-##Calibrating Deep Learning-based Code Smell Detection using Human Feedback
+## Calibrating Deep Learning-based Code Smell Detection using Human Feedback
 
 ## Abstract 
 Code smells are inherently subjective in nature. Software developers may have different opinions and perspectives on smelly code. While many attempts have been made to use deep learning-based models for code smell detection, they fail to consider each developer's subjective perspective while detecting smells. Ignoring this aspect defies the purpose of using deep learning-based smell detection methods because the models are not customized to the developer's context. This paper proposes a method that considers human feedback to account for such subjectivity. Towards this, we created a plugin for IntelliJ IDEA and developed a container-based web-server to offer services of our baseline deep learning model. The setup allowed developers to see code smells within the IDE and provide feedback. 
