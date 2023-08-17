@@ -2,6 +2,13 @@
 
 This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection.
 
+## Calibrating Deep Learning-based Code Smell Detection using Human Feedback
+
+## Abstract 
+Code smells are inherently subjective in nature. Software developers may have different opinions and perspectives on smelly code. While many attempts have been made to use deep learning-based models for code smell detection, they fail to consider each developer's subjective perspective while detecting smells. Ignoring this aspect defies the purpose of using deep learning-based smell detection methods because the models are not customized to the developer's context. This paper proposes a method that considers human feedback to account for such subjectivity. Towards this, we created a plugin for IntelliJ IDEA and developed a container-based web-server to offer services of our baseline deep learning model. The setup allowed developers to see code smells within the IDE and provide feedback. 
+Using this setup, we conducted a controlled experiment with 14 participants divided into experimental and control groups. In the first round of our experiment, we show code smells predicted using the baseline deep learning model and collect feedback from the participants.
+In the second round, we fine-tune the model based on the experimental group's feedback and reevaluate its performance before and after adjustment. Our results show that using such calibration improves the performance of the smell detection model by 15.49\% in F1 score on average across the participants of the experimental group. Our work carries implications for both researchers and practitioners. Practitioners can apply our approach to enhance the quality of their code in day-to-day development activities, aligning it with their own code smell definitions. Furthermore, software engineering researchers can leverage this study to adopt analogous approaches for addressing similar issues, including code review. 
+
 ## Projects
 
 1. **Deployable Server**: The server utilizes machine learning techniques to automate code smell detection, making the process faster and more efficient.
