@@ -14,7 +14,7 @@ This setup entails utilizing pre-existing pre-trained deep learning models to re
 - Open the settings dialog.
 - Click on the plugin tab.
 - Select the settings menu and click 'Install from disk.'
-- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip'.  
+- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip`.  
 - Load the repository located at https://github.com/himesh13/Tagman_Phase2 in the IDE.
 
 ## Experiment Setup after Building the Deep-Learning Models
@@ -24,7 +24,7 @@ Deep learning models are constructed in this setup to recreate the experiment co
 - Clone the repository using the command `gh repo clone SMART-Dal/DLFeedback`.
 - Navigate to the "DL-Models\smell-detection-dl-win\" folder.
 - Execute the Jupyter notebook corresponding to the intended model. This will run the model and generate results for the state-of-the-art reference models.
-- Move to the "DL-Models\smell-detection-dl-win\Py-Scripts\program\dl_models\" folder.
+- Navigate to the  `DL-Models\smell-detection-dl-win\Py-Scripts\program\dl_models\` folder.
 - Run the VAE_xx.py file, where "xx" represents the specific smell.
 - Navigate to the "DeployableServer/django_server/" folder.
 - Build the image with the command `docker-compose build`.
@@ -32,6 +32,6 @@ Deep learning models are constructed in this setup to recreate the experiment co
 - Open the settings dialog.
 - Click on the plugin tab.
 - Select the settings menu and click 'Install from disk.'
-- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip'.  
+- Import the plugin file `IntelliJPlugin/TagmanPlugin-1.0-SNAPSHOT.zip`.  
 - Load the repository located at https://github.com/himesh13/Tagman_Phase2 in the IDE.
 
