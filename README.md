@@ -1,6 +1,6 @@
 # Code Smell Detection Repository
 
-This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection. The pdf copy of the accepted paper can be found at https://github.com/SMART-Dal/DLFeedback/blob/5be8a89f5e7fd69c690b9f386a09c7e88473bf73/SCAM23_DL_Feedback.pdf
+This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection. 
 
 ## Calibrating Deep Learning-based Code Smell Detection using Human Feedback
 
@@ -37,4 +37,6 @@ In the second round, we fine-tune the model based on the experimental group's fe
 ## Notes
 1. For added convenience, all the necessary python libraries for all the subprojects can be installed using the `requirements.txt` file. 
 Use the command below to install all the dependencies using pip:
-`pip install -r requirements.txt` 
+`pip install -r requirements.txt`
+2. The pdf copy of the accepted paper can be found at https://github.com/SMART-Dal/DLFeedback/blob/5be8a89f5e7fd69c690b9f386a09c7e88473bf73/SCAM23_DL_Feedback.pdf
+
