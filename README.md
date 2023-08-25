@@ -1,6 +1,6 @@
 # Code Smell Detection Repository
 
-This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection.
+This repository contains multiple projects related to code smell detection. Each project focuses on a different aspect of code smell detection. The pdf copy of the accepted paper can be found at https://github.com/SMART-Dal/DLFeedback/blob/5be8a89f5e7fd69c690b9f386a09c7e88473bf73/SCAM23_DL_Feedback.pdf
 
 ## Calibrating Deep Learning-based Code Smell Detection using Human Feedback
 
